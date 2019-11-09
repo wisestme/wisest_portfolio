@@ -10,3 +10,10 @@ background: linear-gradient(184deg, rgba(61,31,209,1) 0%,
             rgba(154,61,154,1) 100%);
 color: #fff;
 }
+
+.logo {
+  width: 20%;
+  position: relative;
+  top: 2em;
+  left: 2em;
+}
