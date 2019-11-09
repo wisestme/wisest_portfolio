@@ -55,6 +55,12 @@ a {
   color: #fff;
 }
 
+a:hover {
+  font-size: 1.1em;
+  color: blue;
+  transition: font-size 1s;
+}
+
 p {
   line-height: 1.4em;
 }
