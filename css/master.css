@@ -22,13 +22,13 @@ nav {
   float: right;
   position: relative;
   right: 2em;
-  top: 2.5em;
+  top: 3em;
 }
 
 nav li {
   list-style-type: none;
   display: inline;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 header p {
