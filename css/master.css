@@ -28,7 +28,7 @@ nav {
 nav li {
   list-style-type: none;
   display: inline;
-  margin: 0.5em;
+  margin-left: 0.6em;
 }
 
 header p {
@@ -48,4 +48,17 @@ section {
 .about > h1, .about > h2 {
   text-align: center;
   margin-top: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+p, li {
+    font-size: 1.2em;
 }
