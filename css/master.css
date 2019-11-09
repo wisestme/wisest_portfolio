@@ -17,3 +17,22 @@ color: #fff;
   top: 2em;
   left: 2em;
 }
+
+nav {
+  float: right;
+  position: relative;
+  right: 2em;
+  top: 2.5em;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin: 1em;
+}
+
+header p {
+  position: relative;
+  top: 2em;
+  margin: 2em;
+}
