@@ -62,3 +62,12 @@ p {
 p, li {
     font-size: 1.2em;
 }
+
+footer {
+  text-align: center;
+  background-color: rgb(61,31,209);
+}
+
+footer > p {
+  margin-top: 2em;
+}
