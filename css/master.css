@@ -9,10 +9,11 @@ background: rgb(61,31,209);
 background: linear-gradient(184deg, rgba(61,31,209,1) 0%,
             rgba(154,61,154,1) 100%);
 color: #fff;
+font-family: verdana;
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -67,11 +68,11 @@ a:hover {
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 p, li {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 footer {
