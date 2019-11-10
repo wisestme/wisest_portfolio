@@ -51,6 +51,16 @@ section {
   margin: 2em;
 }
 
+.auto-type {
+  height: 30px;
+  width: 90%;
+  margin: 3em auto 4em auto;
+}
+.auto-type > p {
+  margin: 0.5em;
+  text-align: center;
+}
+
 .about > h1, .about > h2 {
   text-align: center;
   margin-top: 0.5em;
