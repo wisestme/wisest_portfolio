@@ -32,6 +32,3 @@ function autoType2() {
     setTimeout(autoType2, speed);
   }
 }
-if (i === 30){
-  autoType2();
-}
