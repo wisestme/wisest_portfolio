@@ -138,4 +138,21 @@ footer > p {
   .skills > p {
     padding-left: 2em;
   }
+
+  .wrapper {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*************************************
+* TOGGLER
+*/
+.show {
+  display: block
+}
+
+.hide {
+  display: none;
 }
