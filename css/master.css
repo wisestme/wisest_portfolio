@@ -47,6 +47,7 @@ nav {
 nav li {
   list-style-type: none;
   display: block;
+  margin-bottom: 0.5em;
 }
 
 header p {
@@ -177,5 +178,13 @@ footer > p {
 
   .header-nav, nav li {
     display: inline;
+  }
+
+  nav {
+    top: 4em;
+  }
+
+  nav li {
+    margin-left: 1em;
   }
 }
