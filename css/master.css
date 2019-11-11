@@ -110,6 +110,10 @@ p, li {
   width: 60%;
 }
 
+.skills > h2 {
+  text-align: center;
+}
+
 footer {
   text-align: center;
   background-color: rgb(61,31,209);
@@ -117,4 +121,21 @@ footer {
 
 footer > p {
   margin-top: 2em;
+}
+
+/***************************************
+* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+  .certified > p {
+    font-size: 1.1em;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .skills > p {
+    padding-left: 2em;
+  }
 }
