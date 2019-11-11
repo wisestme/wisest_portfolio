@@ -25,6 +25,14 @@ font-family: verdana;
   left: 2em;
 }
 
+header > i {
+  position: relative;
+  float: right;
+  top: 1em;
+  margin-right: 1em;
+  font-size: 25px;
+}
+
 nav {
   float: right;
   position: relative;
