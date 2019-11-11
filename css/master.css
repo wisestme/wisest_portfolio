@@ -18,6 +18,10 @@ font-family: verdana;
   letter-spacing: 1px;
 }
 
+header {
+  margin-bottom: 2em;
+}
+
 .logo {
   width: 20%;
   position: relative;
@@ -36,25 +40,25 @@ header > i {
 nav {
   float: right;
   position: relative;
-  right: 2em;
-  top: 3em;
+  right: 1em;
+  top: 2em;
 }
 
 nav li {
   list-style-type: none;
-  display: inline;
-  margin-left: 0.6em;
+  display: block;
+  border: 2px solid red;
 }
 
 header p {
-  position: relative;
-  top: 2em;
-  margin: 2em;
+
 }
 
 main {
   position: relative;
   top: 2em;
+  margin-top: 2em;
+  padding-top: 2em;
 }
 section {
   margin: 4em 2em;
@@ -62,11 +66,13 @@ section {
 
 .auto-type {
   height: 30px;
-  width: 90%;
-  margin: 3em auto 4em auto;
+  margin: 0 auto 4em auto;
+  position: relative;
+  top: 10em;
+  border: 2px solid red;
+  width: 100%;
 }
 .auto-type > p {
-  margin: 0.5em;
   text-align: center;
 }
 
