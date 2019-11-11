@@ -1,7 +1,7 @@
 let i = 0;
-let text = 'I teach Web Development @ FMVR';
+let text = 'Teacher + Web Developer @ FMVR';
 let j = 0;
-let text2 = 'I also develop web sites @ FMVR';
+let text2 = 'I also freelance';
 let speed = 50;
 
 let textSpace = document.getElementById('auto');
