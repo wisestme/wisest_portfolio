@@ -65,7 +65,7 @@ section {
 }
 
 .auto-type {
-  height: 30px;
+  height: 40px;
   margin: 0 auto 4em auto;
   position: relative;
   top: 10em;
@@ -137,6 +137,18 @@ footer > p {
   margin-top: 2em;
 }
 
+/*************************************
+* TOGGLER
+*/
+.show {
+  display: block
+}
+
+.hide {
+  display: none;
+}
+
+
 /***************************************
 * MEDIA QUERIES */
 
@@ -160,13 +172,16 @@ footer > p {
   }
 }
 
-/*************************************
-* TOGGLER
-*/
-.show {
-  display: block
-}
+@media screen and (min-width: 700px) {
+  .fas {
+    display: none;
+  }
 
-.hide {
-  display: none;
+  .header-nav, nav li {
+    display: inline;
+  }
+
+  body {
+    background-color: red;
+  }
 }
