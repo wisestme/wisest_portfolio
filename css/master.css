@@ -47,7 +47,6 @@ nav {
 nav li {
   list-style-type: none;
   display: block;
-  border: 2px solid red;
 }
 
 header p {
@@ -69,7 +68,6 @@ section {
   margin: 0 auto 4em auto;
   position: relative;
   top: 10em;
-  border: 2px solid red;
   width: 100%;
 }
 .auto-type > p {
@@ -179,9 +177,5 @@ footer > p {
 
   .header-nav, nav li {
     display: inline;
-  }
-
-  body {
-    background-color: red;
   }
 }
