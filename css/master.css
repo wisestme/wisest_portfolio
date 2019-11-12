@@ -27,6 +27,7 @@ header {
   position: relative;
   top: 2em;
   left: 2em;
+  max-width: 120px;
 }
 
 header > i {
@@ -107,7 +108,10 @@ a:hover {
 .skills, .summary, .publications {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 1em;
-  border-radius: 15px
+  border-radius: 15px;
+  max-width: 650px;
+  margin: 6em auto;
+  width: 90%;
 }
 
 p {
