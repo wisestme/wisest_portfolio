@@ -112,6 +112,7 @@ a:hover {
   max-width: 650px;
   margin: 6em auto;
   width: 90%;
+  box-shadow: 4px 4px 8px #000;
 }
 
 p {
