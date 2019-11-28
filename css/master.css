@@ -21,15 +21,19 @@
   z-index: -1;
 }
 
+.wrapper {
+  max-width: 1000px;
+}
+
 .enter-icon {
   position: relative;
   top: 2em;
-  left: 2em;
+  left: 1em;
 }
 
 .about {
   position: relative;
-  top: 20vh;
+  top: 10vh;
 }
 
 .about > h1, .about > h2 {
