@@ -12,6 +12,15 @@
   height: 100vh;
 }
 
+.overlay {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.8;
+  z-index: -1;
+}
+
 body {
 background: rgb(61,31,209);
 background: linear-gradient(184deg, rgba(61,31,209,1) 0%,
