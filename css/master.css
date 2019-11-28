@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.landing {
+  background-image: url(../images/fish.jpeg);
+}
+
 body {
 background: rgb(61,31,209);
 background: linear-gradient(184deg, rgba(61,31,209,1) 0%,
