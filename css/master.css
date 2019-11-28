@@ -110,7 +110,6 @@ section {
   height: 40px;
   margin: 0 auto 4em auto;
   position: relative;
-  top: 10em;
   width: 100%;
 }
 .auto-type > p {
@@ -181,6 +180,7 @@ footer {
 }
 
 footer > p {
+  position: relative;
   margin-top: 2em;
 }
 
