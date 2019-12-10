@@ -4,12 +4,18 @@
   box-sizing: border-box;
 }
 
+/* @font-face {
+  font-family: 'gothamc';
+  src: url('../fonts/Gotham_XNarrow_Medium.otf');
+} */
+
 .landing {
   background-image: url(../images/fish.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
+  /* font-family: 'gothamc'; */
 }
 
 .overlay {
@@ -36,12 +42,13 @@
   top: 10vh;
 }
 
-.about > h1, .about > h2 {
+.about  h1, .about  h2 {
   text-align: center;
   margin-top: 0.5em;
+  letter-spacing: 1px;
 }
 
-.about > h2 {
+.about h2 {
   font-size: 18px;
 }
 
