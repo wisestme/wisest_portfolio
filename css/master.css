@@ -155,6 +155,10 @@ a:hover {
   box-shadow: 4px 4px 8px #000;
 }
 
+.projects, .publications {
+  text-align: center;
+}
+
 .resume {
   display: flex;
   text-align: center;
@@ -207,6 +211,16 @@ footer > p {
 * MEDIA QUERIES */
 
 @media screen and (min-width: 600px) {
+  .projects {
+    max-width: 400px;
+  }
+  
+  .certified, .skills {
+    text-align: center;
+  }
+  
+  
+
   .certified > p {
     font-size: 1.1em;
   }
@@ -215,9 +229,8 @@ footer > p {
     font-size: 30px;
   }
 
-  .skills > p {
-    padding-left: 2em;
-  }
+
+
 
   .wrapper {
     width: 90%;
