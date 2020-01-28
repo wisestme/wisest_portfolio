@@ -27,9 +27,6 @@
   z-index: -1;
 }
 
-.wrapper {
-  max-width: 1000px;
-}
 
 .enter-icon {
   position: relative;
@@ -95,12 +92,18 @@ nav {
 
 nav li {
   list-style-type: none;
-  display: block;
+ 
   margin-bottom: 0.5em;
 }
 
-header p {
+header > nav > ul {
+  display: flex;
+  height: 40px;
+  align-items: flex-start;
+}
 
+header > nav > ul > li:nth-child(even) {
+  align-self: center;
 }
 
 main {
