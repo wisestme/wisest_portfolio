@@ -84,23 +84,18 @@ header > i {
 }
 
 nav {
+  position: relative;
+  top: 2em;
   float: right;
-  
   right: 1em;
-
 }
 
 nav li {
   list-style-type: none;
- 
   margin-bottom: 0.5em;
 }
 
-header > nav > ul {
-  display: flex;
-  height: 40px;
-  align-items: flex-start;
-}
+
 
 header > nav > ul > li:nth-child(even) {
   align-self: center;
@@ -214,6 +209,8 @@ footer > p {
 * MEDIA QUERIES */
 
 @media screen and (min-width: 600px) {
+
+  
   .projects {
     max-width: 400px;
   }
@@ -245,6 +242,12 @@ footer > p {
 }
 
 @media screen and (min-width: 700px) {
+
+  header > nav > ul {
+  display: flex;
+  height: 40px;
+  align-items: flex-end;
+}
   .vmargin {
     height: 30px;
   }
