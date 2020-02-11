@@ -221,3 +221,8 @@ footer p {
 footer a {
 	color: #ff0;
 }
+
+hr {
+	opacity: 0.1;
+	margin-bottom: 1em;
+}
