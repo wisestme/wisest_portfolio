@@ -202,4 +202,22 @@ footer {
 	color: var(--pry-text);
 }
 
-hoo
+footer h2 {
+	margin-bottom: 1em;
+}
+
+footer p {
+	
+	text-align: center;
+}
+
+.social {
+	width: 50%;
+	margin: 2em auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer a {
+	color: #ff0;
+}
