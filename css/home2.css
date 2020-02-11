@@ -20,9 +20,14 @@ body {
 	font-family: verdana, san-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	background: var(--pry-back);
 	margin-bottom: 6em;
+	color: var(--pry-text);
 }
 
 header * {
@@ -46,6 +51,10 @@ header img:nth-child(2) {
 	border-radius: 50%;
 	width: 300px;
 	max-width: 350px
+}
+
+header img:nth-child(odd) {
+	opacity: 0.5;
 }
 .header-lower {
 	display: grid;
@@ -72,7 +81,19 @@ nav ul {
 
 header a {
 	color: var(--pry-text);
-	text-decoration: none;
+}
+
+section {
+	margin-bottom: 6em;
+}
+.certified * {
+	color: var(--sec-text);
+	text-align: center;
+	line-height: 1.8em;
+}
+
+a:hover {
+	font-weight: bold;
 }
 
 svg {
