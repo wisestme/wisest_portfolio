@@ -12,13 +12,67 @@
 	box-sizing: border-box;
 }
 
+.clear {
+	clear: both;
+}
+
 body {
-	padding: 1em 0;
 	font-family: verdana, san-serif;
+}
+
+header {
+	background: var(--pry-back);
+	margin-bottom: 6em;
+}
+
+header * {
+	margin: 0.5em 0;
+}
+
+.header-upper {
+	padding: 1em;
+}
+
+header img[src*=logo] {
+	width: 150px;
+}
+
+header img {
+	width: 100%;
+	max-width: 250px;
+}
+
+header img:nth-child(2) {
+	border-radius: 50%;
+	width: 300px;
+	max-width: 350px
+}
+.header-lower {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.header-text {
+	grid-row: 2/3;
+	grid-column: 2/3;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+.ham {
+	float: right;
 }
 
 nav ul {
 	display: none;
+}
+
+header a {
+	color: var(--pry-text);
+	text-decoration: none;
 }
 
 svg {
