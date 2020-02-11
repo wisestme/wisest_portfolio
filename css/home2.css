@@ -160,6 +160,36 @@ figure {
 	margin: 2em auto;
 }
 
+.form h2 {
+	color: var(--sec-text);
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+form {
+	padding: 2em 1em;
+	background: var(--sec-back);
+	color: var(--pry-text);
+}
+
+form > .wrapper {
+	width: 60%;
+	margin: 1em auto;
+}
+.wrapper > input {
+	width: 90%;
+	display: block;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border-radius: 10px;
+}
+
+.wrapper > input:last-child {
+	margin-top: 1em;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 svg {
 	width: 25px;
