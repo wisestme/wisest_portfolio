@@ -17,6 +17,10 @@ body {
 	font-family: verdana, san-serif;
 }
 
+nav ul {
+	display: none;
+}
+
 svg {
 	width: 25px;
 	height: 25px;
