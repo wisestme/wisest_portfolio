@@ -168,7 +168,7 @@ figure {
 
 form {
 	padding: 2em 1em;
-	background: var(--sec-back);
+	background: var(--pry-back);
 	color: var(--pry-text);
 }
 
@@ -195,3 +195,11 @@ svg {
 	width: 25px;
 	height: 25px;
 }
+
+footer {
+	background: var(--sec-back);
+	padding: 2em 1em;
+	color: var(--pry-text);
+}
+
+hoo
