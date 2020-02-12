@@ -324,4 +324,14 @@ hr {
 		max-width: 300px;
 	}
 
+	.project-list {
+		display: flex;
+		max-width: 850px;
+		margin: 0 auto;
+	}
+
+	.project-list img {
+		height: 200px;
+	}
+
 }
