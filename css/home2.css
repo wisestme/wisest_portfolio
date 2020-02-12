@@ -298,4 +298,17 @@ hr {
 		justify-content: space-around;
 	}
 
+	.content {
+		display: flex;
+		width: 100%;
+	}
+
+	.content > div:first-child {
+		background: url(../images/fire.jpeg);
+	}
+
+	.content > div {
+		width: 50%;
+	}
+
 }
