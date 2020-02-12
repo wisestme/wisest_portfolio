@@ -311,4 +311,17 @@ hr {
 		width: 50%;
 	}
 
+	.summary > .wrapper {
+		max-width: 780px;
+		margin: 0 auto;
+	}
+
+	.summary img[src*=me] {
+		margin-right: 3em;
+	}
+
+	.social {
+		max-width: 300px;
+	}
+
 }
