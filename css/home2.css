@@ -278,3 +278,24 @@ hr {
 	}
 
 }
+
+@media screen and (min-width: 800px) {
+	nav ul {
+		display: inline;
+	}
+
+	nav li {
+		display: inline;
+		margin: 0 1em;
+	}
+
+	.ham {
+		display: none;
+	}
+
+	.header-upper {
+		display: flex;
+		justify-content: space-around;
+	}
+
+}
