@@ -42,6 +42,10 @@ header img[src*=logo] {
 	width: 150px;
 }
 
+header a {
+	color: var(--pry-text);
+}
+
 header img {
 	width: 100%;
 	max-width: 250px;
