@@ -274,9 +274,22 @@ hr {
 	opacity: 0.9;
 }
 
-.modal.hide {
-	display: nne;
+.modal-wrapper svg{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: var(--pry-text);
 }
+
+.modal-wrapper svg{
+	fill: #ff0;
+}
+
+
+.toggle-hide {
+	display: none;
+}
+
 /******************************************************************
 ************MEDIA QUERIES*/
 @media screen and (min-width: 680px) {
