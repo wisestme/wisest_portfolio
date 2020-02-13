@@ -268,10 +268,11 @@ hr {
 	width: 100%;
 	background: var(--sec-back);
 	z-index: 2;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	opacity: 0.9;
+	height: 100vh;
 }
 
 .modal-wrapper svg{
