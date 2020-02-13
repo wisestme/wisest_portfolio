@@ -228,6 +228,17 @@ hr {
 	margin-bottom: 1em;
 }
 
+.baloon {
+	display: none;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	right: 400px;
+	background: var(--sec-back);
+	border-radius: 50%;
+	opacity: 0.1;
+}
 /******************************************************************
 ************MEDIA QUERIES*/
 @media screen and (min-width: 680px) {
@@ -391,5 +402,9 @@ hr {
 
 	.form {
 		grid-column: 1/5
+	}
+
+	.baloon {
+		display: block;
 	}
 }
