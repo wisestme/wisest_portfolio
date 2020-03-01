@@ -6,6 +6,11 @@
 	--shadow: #000;
 }
 
+@font-face {
+	font-family: 'mercury display';
+	src: url('fonts/Mercury Display Regular.ttf');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,7 +23,6 @@
 
 body {
 	font-family: verdana, san-serif;
-	width: 100%;
 }
 
 a {
@@ -149,6 +153,9 @@ figure {
 	color: var(--sec-text);
 	font-weight: bold;
 	line-height: 1.5em;
+	font-family: 'mercury display';
+	font-size: 20px;
+	letter-spacing: 0.5px;
 }
 
 
