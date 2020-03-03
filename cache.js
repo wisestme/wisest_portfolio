@@ -32,7 +32,7 @@ self.addEventListener('activate', e => {
 	// Remove unwanted caches
 	e.waitUntil(
 		caches.keys().then(cacheNames => {
-			return promise.all(
+			return Promise.all(
 				cacheNames.map(cache => {
 					if(cache !== cacheName) {
 						console.log('Service Worker: Clearing Old Cache');
