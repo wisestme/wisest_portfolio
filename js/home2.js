@@ -1,3 +1,13 @@
+// Check Service Workers support
+if('serviceWorker' in navigator) {
+	window.addEventListener('load', () => {
+		navigator.serviceWorker
+		.register('cache.js')
+		.then(reg => console.log('Service Worker: Registered'))
+		.catch(err => console.log(`Service Worker: Error: ${err}`));
+	})
+}
+
 // Get hold of UI elements
 let hamMenu = document.querySelector('.fa-hamburger');
 let modal = document.querySelector('.modal-wrapper');

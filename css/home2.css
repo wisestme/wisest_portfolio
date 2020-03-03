@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'mercury display';
-	src: url('fonts/Mercury Display Regular.ttf');
+	src: url('../fonts/Mercury Display Regular.ttf');
 }
 
 * {
