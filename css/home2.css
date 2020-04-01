@@ -242,7 +242,12 @@ footer p {
 }
 
 footer a {
+	transition: 0.5s ease;
 	color: var(--accent);
+}
+
+p > a:hover {
+	letter-spacing: 1px;
 }
 
 hr {
