@@ -203,6 +203,16 @@ form > .wrapper {
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
+	background: var(--accent);
+	outline: none;
+	color: var(--sec-back);
+	font-weight: bold;
+	font-size: 1em;
+	transition: 0.5s ease;
+}
+
+.wrapper > input:last-child:hover {
+	background: transparent;
 }
 
 label {
