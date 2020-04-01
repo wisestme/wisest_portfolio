@@ -4,6 +4,7 @@
 	--pry-back: #5a3cd7;
 	--sec-back: #001d38;
 	--shadow: #000;
+	--accent: #ff0;
 }
 
 @font-face {
@@ -48,7 +49,7 @@ header img[src*=logo] {
 }
 
 header a {
-	color: var(--pry-text);
+	color: var(--accent);
 }
 
 header img {
@@ -89,7 +90,7 @@ nav ul {
 }
 
 .header-upper > a, .resume a {
-	color: #ff0;
+	color: var(--accent);
 }
 
 section {
@@ -126,7 +127,7 @@ a:hover {
 }
 
 figcaption {
-	color: var(--pry-text);
+	color: var(--accent);
 }
 
 figure {
@@ -212,6 +213,10 @@ svg {
 	height: 25px;
 }
 
+svg:hover {
+	transform: scale(1.2);
+}
+
 footer {
 	background: var(--sec-back);
 	padding: 2em 1em;
@@ -236,7 +241,7 @@ footer p {
 }
 
 footer a {
-	color: #ff0;
+	color: var(--accent);
 }
 
 hr {
