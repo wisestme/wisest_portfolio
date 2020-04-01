@@ -28,6 +28,7 @@ body {
 
 a {
 	text-decoration: none;
+	transition: 1s ease;
 }
 
 header {
@@ -103,7 +104,7 @@ section {
 }
 
 a:hover {
-	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 .projects {
