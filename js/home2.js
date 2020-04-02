@@ -16,12 +16,17 @@ let closeIcon = document.querySelector('.fa-cross');
 
 // Show modal, hide hamburger
 hamMenu.addEventListener('click', function() {
-modal.classList.remove('toggle-hide');
+//modal.classList.remove('toggle-hide');
+modal.style.width = '100vw';
+modal.style.right = '0';
+
 hamMenu.style.display = 'none';
 });
 
 // Show modal, hide hamburger
 closeIcon.addEventListener('click', function() {
-modal.classList.add('toggle-hide');
+//modal.classList.add('toggle-hide');
 hamMenu.style.display = 'block';
+modal.style.width = '0';
+modal.style.right = '-40px';
 });
