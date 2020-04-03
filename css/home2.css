@@ -419,7 +419,12 @@ hr {
 	}
 
 	.content > div:first-child {
-		background: url(../images/fire.jpeg);
+		background: url(../images/coder.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 1em;
+		border-radius: 50%;
 	}
 
 	.content > div {
