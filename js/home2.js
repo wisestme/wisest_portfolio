@@ -23,10 +23,14 @@ modal.style.right = '0';
 hamMenu.style.display = 'none';
 });
 
+
+function closeModal () {
+	hamMenu.style.display = 'block';
+	modal.style.width = '0';
+	modal.style.right = '-40px';
+}
 // Show modal, hide hamburger
 closeIcon.addEventListener('click', function() {
 //modal.classList.add('toggle-hide');
-hamMenu.style.display = 'block';
-modal.style.width = '0';
-modal.style.right = '-40px';
+	closeModal();
 });
