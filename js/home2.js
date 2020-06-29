@@ -12,7 +12,7 @@ if('serviceWorker' in navigator) {
 let hamMenu = document.querySelector('.fa-hamburger');
 let modal = document.querySelector('.modal-wrapper');
 let closeIcon = document.querySelector('.fa-cross');
-
+let modalContact = document.querySelector('.modal_contact');
 
 // Show modal, hide hamburger
 hamMenu.addEventListener('click', function() {
@@ -29,8 +29,9 @@ function closeModal () {
 	modal.style.width = '0';
 	modal.style.right = '-40px';
 }
-// Show modal, hide hamburger
-closeIcon.addEventListener('click', function() {
-//modal.classList.add('toggle-hide');
-	closeModal();
-});
+
+// Show modal, hide hamburger on click
+closeIcon.addEventListener('click', closeModal);
+
+// go to contact form from modal
+modalContact.addEventListener('click', closeModal);
